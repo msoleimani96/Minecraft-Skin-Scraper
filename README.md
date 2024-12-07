@@ -3,6 +3,9 @@
 
 This is a scraper project to extract skins of [NameMC](https://namemc.com) and https://www.minecraftskins.net websites.
 
+One of the challenges I faced was the [NameMC](nameMC.com) website that used JavaScript rendering, and I solved it using Selenium.
+The other challenge was some skins that had no title or tag, so I generated titles or tags for them using NLP (Natural language processing).
+
 ## Technologies:
 - Python
 - Selenium (For Javascript rendering websites)
